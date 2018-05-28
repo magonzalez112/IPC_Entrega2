@@ -1,0 +1,54 @@
+.root{
+  -fx-background: #333333;
+  -fx-text-fill: -text-dark;
+  -fx-prompt-text-fill: rgba(255,255,255,.3);
+  -text-disabled: -text-disabled-dark;
+  -background-disabled:rgba(255,255,255,.12);
+  -background-fill: -text-dark;
+ 
+}
+.chart-series-line{
+    -fx-stroke: #48B2DC;
+    
+}
+
+
+.tab-pane .tab-header-area .tab-header-background {
+    -fx-opacity: 0;
+}
+
+.tab-pane
+{
+    -fx-tab-min-width:90px;
+}
+
+.tab{
+    -fx-background-insets: 0 1 0 1,0,0;
+}
+.tab-pane .tab
+{
+    -fx-background-color: #3c3c3c;
+
+}
+
+.tab-pane .tab:selected
+{
+    -fx-background-color: #3c3c3c;
+}
+
+.tab .tab-label { 
+    -fx-alignment: CENTER;
+    -fx-text-fill: #828282;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+
+.tab:selected .tab-label { 
+    -fx-alignment: CENTER;
+    -fx-text-fill: #48B2DC;
+}
+.button {
+   -fx-background-color: radial-gradient(radius 100%, #4C4B4B,#3c3c3c );
+   -fx-text-fill: white;
+   -fx-border-color: #828282;
+}
